@@ -1,0 +1,31 @@
+.colorpicker-input {
+    width:44px;    
+    height:23px;
+    border:1px solid black;
+    cursor:pointer;
+}
+
+.colorpicker-box {
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    position: absolute;
+    padding: 0px;
+}
+
+.colorpicker-box ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float: left;  
+}
+
+.colorpicker-box ul li {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+}
