@@ -3,6 +3,8 @@ mootools-colorpicker
 
 This plugin is a mootools adaptation of [JQuery SimpleColorPicker](https://github.com/rachel-carvalho/simple-color-picker)
 
+![Screenshot](http://i.imgur.com/VEk3ed1.png?1)
+
 Including it on your page
 ----------
 
