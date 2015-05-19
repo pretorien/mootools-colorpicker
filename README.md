@@ -11,7 +11,7 @@ This plugin is a mootools adaptation of [JQuery SimpleColorPicker](https://githu
 </head>
 ```
 
-### Usage
+### How to Use
 
 ```javascript
 <script type="text/javascript">
