@@ -1,7 +1,10 @@
-# mootools-colorpicker
+mootools-colorpicker
+===========
+
 This plugin is a mootools adaptation of [JQuery SimpleColorPicker](https://github.com/rachel-carvalho/simple-color-picker)
 
-### Including it on your page
+Including it on your page
+----------
 
 ```html
 <head>
@@ -11,7 +14,8 @@ This plugin is a mootools adaptation of [JQuery SimpleColorPicker](https://githu
 </head>
 ```
 
-### How to Use
+How to Use
+----------
 
 ```javascript
 <script type="text/javascript">
