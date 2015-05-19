@@ -1,6 +1,6 @@
 name: mootools-colorpicker
 author: pretorien
 category: Forms
-tags: [color, picker]
-#docs: https://github.com/pretorien/mootools-colorpicker
-#current: 1.0
+tags: [color, picker, colorpicker]
+docs: https://github.com/pretorien/mootools-colorpicker
+current: 1.0
