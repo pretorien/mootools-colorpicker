@@ -17,8 +17,7 @@ Including it on your page
 How to Use
 ----------
 
-	#JS
-	new ColorPicker('form_tags_input');
+	var CP = new ColorPicker(element [, options]);
 	
 ### License
 
