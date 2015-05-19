@@ -17,14 +17,9 @@ Including it on your page
 How to Use
 ----------
 
-```javascript
-<script type="text/javascript">
-  window.addEvent('domready', function () {
-    new ColorPicker(element);
-  }
-</script>  
-```
-
+	#JS
+	new ColorPicker('form_tags_input');
+	
 ### License
 
 Copyright © Frédéric BECK
