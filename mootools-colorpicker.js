@@ -15,6 +15,7 @@ var ColorPicker = new Class({
                     , '#660000', '#783f04', '#7f6000', '#274e13', '#0c343d', '#073763', '#20124d', '#4C1130']
     },
     element: null,
+    back: null,
     box: null,
     input: null,
     initialize: function (element, options) {
@@ -26,6 +27,11 @@ var ColorPicker = new Class({
     build: function () {
 
         var self = this;
+
+        // Build back
+        this.back = new Element('div', {
+            id: this.options.prefix + '-colorback'
+        });
 
         // Build colorbox
         this.box = new Element('div', {
@@ -104,6 +110,7 @@ var ColorPicker = new Class({
         this.input.inject(this.element, 'after');
         colorBoxColors.inject(this.box);
         this.box.inject(this.input, 'after');
+        this.back.inject(this.input, 'after');
 
         // Hide the colorbox
         this.hide(this.box);
@@ -113,6 +120,7 @@ var ColorPicker = new Class({
     },
     selectColor: function (color) {
         this.hide(this.box);
+        this.back.removeClass('colorpicker-back');
         this.element.set('value', color);
         this.input.set('data-color', color).set('title', color).setStyle('background-color', color);
         this.element.fireEvent('onSelectColor');
@@ -140,5 +148,6 @@ var ColorPicker = new Class({
             edge: 'upperLeft'
         });
         this.show(this.box);
+        this.back.addClass('colorpicker-back');
     }
 });
